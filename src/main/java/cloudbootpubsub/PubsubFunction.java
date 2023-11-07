@@ -8,8 +8,8 @@ import io.cloudevents.CloudEvent;
 import java.util.Base64;
 import java.util.logging.Logger;
 
-public class PubSubFunction implements CloudEventsFunction {
-  private static final Logger logger = Logger.getLogger(PubSubFunction.class.getName());
+public class PubsubFunction implements CloudEventsFunction {
+  private static final Logger logger = Logger.getLogger(PubsubFunction.class.getName());
 
   @Override
   public void accept(CloudEvent event) {
